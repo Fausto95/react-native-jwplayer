@@ -1,0 +1,33 @@
+{
+  "name": "rn-jwplayer",
+  "title": "React Native Jwplayer",
+  "version": "1.0.4",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fausto95/react-native-jwplayer.git",
+    "baseUrl": "https://github.com/fausto95/react-native-jwplayer"
+  },
+  "keywords": [
+    "react-native"
+  ],
+  "author": {
+    "name": "Fausto K.",
+    "email": "faustino.kialungila@gmail.com"
+  },
+  "license": "MIT",
+  "licenseFilename": "LICENSE",
+  "readmeFilename": "README.md",
+  "peerDependencies": {
+    "react": "^16.5.0",
+    "react-native": ">=0.57.0-rc.0 <1.0.x"
+  },
+  "devDependencies": {
+    "react": "^16.5.0",
+    "react-native": "^0.59.4"
+  }
+}
