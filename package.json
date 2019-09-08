@@ -1,17 +1,6 @@
 {
-<<<<<<< HEAD
-<<<<<<< HEAD
-  "name": "rn-jwplayer",
-  "title": "React Native Jwplayer",
   "version": "1.0.4",
-=======
-  "name": "@fausto95/react-native-jwplayer",
-=======
   "name": "rn-jwplayer",
->>>>>>> rename package
-  "version": "1.0.1",
->>>>>>> omh
-  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit0"
