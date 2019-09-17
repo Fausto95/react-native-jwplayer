@@ -1,11 +1,17 @@
-//
-//  Created by Faustino Kialungila on 08/09/2019.
-//
+import { requireNativeComponent } from 'react-native';
+
+const RNJWPlayer = requireNativeComponent('JwPlayer', JwPlayer);
+
+export default class JwPlayer extends Component {
+  render() {
+    return <RNJWPlayer {...this.props} />;
+  }
+}
+
+JwPlayer.propTypes = {
+  fileUri: PropTypes.string,
+  playerKey: PropTypes.string,
+};
 
 
-import React, {Component} from 'react';
-import PropTypes from 'prop-types';
-import {requireNativeComponent, NativeModules} from 'react-native';
-
-module.exports = requireNativeComponent('REACT_NATIVE_JW_PLAYER');
-
+export default JwPlayer;
