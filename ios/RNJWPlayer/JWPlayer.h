@@ -1,4 +1,6 @@
-//  Created by react-native-create-bridge
+//
+//  Created by Faustino Kialungila on 08/09/2019.
+//
 
 // import UIKit so you can subclass off UIView
 #import <UIKit/UIKit.h>

@@ -1,9 +1,9 @@
 //
 //  Created by Faustino Kialungila on 08/09/2019.
-//  Copyright © 2019 Facebook. All rights reserved.
 //
 
 #import <Foundation/Foundation.h>
+#import <JWPlayer_iOS_SDK/JWPlayerController.h>
 #import "JWPlayer.h"
 
 // import RCTEventDispatcher
@@ -14,7 +14,6 @@
 #else
 #import “React/RCTEventDispatcher.h” // Required when used as a Pod in a Swift project
 #endif
-#import <JWPlayer_iOS_SDK/JWPlayerController.h>
 
 
 @implementation JWPlayerView : UIView  {
@@ -32,7 +31,7 @@
     self.player = [[JWPlayerController alloc] initWithConfig:config];
     _playerView =  self.player.view;
   }
-    
+
   return self;
 }
 
