@@ -6,18 +6,7 @@
 
 import React, {Component} from 'react';
 import PropTypes from 'prop-types';
-import {requireNativeComponent} from 'react-native';
+import {requireNativeComponent, NativeModules} from 'react-native';
 
-const JWPlayer = requireNativeComponent('JWPlayer', JWPlayerView);
-
-export default class JWPlayerView extends Component {
-  render() {
-    return <JWPlayer {...this.props} />;
-  }
-}
-
-JWPlayerView.propTypes = {
-  fileUri: PropTypes.string,
-  playerKey: PropTypes.string,
-};
+module.exports = requireNativeComponent('REACT_NATIVE_JW_PLAYER');
 

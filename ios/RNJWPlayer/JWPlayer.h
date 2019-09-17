@@ -1,7 +1,4 @@
-//
-//  Created by Faustino Kialungila on 08/09/2019.
-//  Copyright © 2019 Facebook. All rights reserved.
-//
+//  Created by react-native-create-bridge
 
 // import UIKit so you can subclass off UIView
 #import <UIKit/UIKit.h>
@@ -9,7 +6,7 @@
 
 @class RCTEventDispatcher;
 
-@interface JWPlayer : UIView
+@interface JWPlayerView : UIView
   // Define view properties here with @property
   @property (nonatomic, strong) JWPlayerController *player;
   @property (nonatomic, assign) NSString *fileUri;
