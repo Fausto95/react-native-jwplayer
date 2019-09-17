@@ -1,6 +1,6 @@
 {
   "name": "@fausto95/react-native-jwplayer",
-  "version": "0.2.2",
+  "version": "0.2.3",
   "title": "React Native JWPlayer Component",
   "description": "JWPlayer Component For React Native",
   "main": "index.js",
