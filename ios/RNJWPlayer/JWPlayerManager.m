@@ -16,7 +16,7 @@
 
 // Export a native module
 // https://facebook.github.io/react-native/docs/native-modules-ios.html
-RCT_EXPORT_MODULE(RNJWPlayer);
+RCT_EXPORT_MODULE(REACT_NATIVE_JW_PLAYER);
 
 // Return the native view that represents your React component
 - (UIView *)view
