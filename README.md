@@ -1,9 +1,16 @@
 
 # JWPlayer Component For React Native
 
-## Getting started
+## Installing
 
-`$ npm install @fausto95/react-native-jwplayer --save`
+`$ yarn add @fausto95/react-native-jwplayer`
+
+### Pod
+Add this to your Podfile
+
+```ruby
+pod 'RNJWPlayer', :path => '../node_modules/@fausto95/react-native-jwplayer/RNJWPlayer.podspec'
+```
 
 ### Linking
 
