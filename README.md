@@ -22,8 +22,8 @@ const App = () => {
   return (
     <View style={styles.container}>
       <JWPlayer
-        fileUri="http://example.com/hls.m3u8"
-        playerKey="EXAMPLEPKEY85532/fnjetgdf"
+        fileUri="https://content.jwplatform.com/manifests/yp34SRmf.m3u8"
+        playerKey="EXAMPLEOFKEY/YOUR_PLAYER_KEY_GOES_HERE"
         style={styles.player}
       />
     </View>
@@ -68,4 +68,4 @@ export default App;
 
 ### Contributions
 
-Any contributions is welcome, send PR.
+Any contribution is welcome, send PR 😎.

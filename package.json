@@ -1,11 +1,11 @@
 {
   "name": "@fausto95/react-native-jwplayer",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "title": "React Native JWPlayer Component",
-  "description": "JWPlayer Component Bridge For React Native",
+  "description": "JWPlayer Component For React Native",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 0"
+    "release": "np"
   },
   "repository": {
     "type": "git",
@@ -13,16 +13,17 @@
     "baseUrl": "https://github.com/fausto95/react-native-jwplayer"
   },
   "license": "MIT",
+  "homepage": "https://github.com/fausto95/react-native-jwplayer#readme",
   "readmeFilename": "README.md",
   "keywords": [
     "react-native",
     "react-native-jwplayer"
   ],
-  "author": {
-    "name": "Fausto K.",
-    "email": "faustino.kialungila@gmail.com"
-  },
+  "author": "Fausto K. <faustino.kialungila@gmail.com>",
   "peerDependencies": {
     "react-native": "^0.59.0"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }

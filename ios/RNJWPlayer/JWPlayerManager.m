@@ -1,27 +1,12 @@
-//  Created by react-native-create-bridge
+//
+//  Created by Faustino Kialungila on 08/09/2019.
+//
 
 #import <Foundation/Foundation.h>
-#import "JWPlayer.h"
-//#import "JWPlayerManager.h"
-
-// import RCTBridge
-#if __has_include(<React/RCTBridge.h>)
 #import <React/RCTBridge.h>
-#elif __has_include(“RCTBridge.h”)
-#import “RCTBridge.h”
-#else
-#import “React/RCTBridge.h” // Required when used as a Pod in a Swift project
-#endif
-//  Created by react-native-create-bridge
-
-// import RCTViewManager
-#if __has_include(<React/RCTViewManager.h>)
 #import <React/RCTViewManager.h>
-#elif __has_include(“RCTViewManager.h”)
-#import “RCTViewManager.h”
-#else
-#import “React/RCTViewManager.h” // Required when used as a Pod in a Swift project
-#endif
+#import "JWPlayer.h"
+
 
 @interface JWPlayerViewManager : RCTViewManager
 
@@ -29,11 +14,9 @@
 
 @implementation JWPlayerViewManager
 
-//@synthesize bridge = _bridge;
-
 // Export a native module
 // https://facebook.github.io/react-native/docs/native-modules-ios.html
-RCT_EXPORT_MODULE(REACT_NATIVE_JW_PLAYER);
+RCT_EXPORT_MODULE(RNJWPlayer);
 
 // Return the native view that represents your React component
 - (UIView *)view
