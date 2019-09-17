@@ -12,6 +12,3 @@ JwPlayer.propTypes = {
   fileUri: PropTypes.string,
   playerKey: PropTypes.string,
 };
-
-
-export default JwPlayer;
