@@ -17,7 +17,7 @@
 #import <JWPlayer_iOS_SDK/JWPlayerController.h>
 
 
-@implementation JWPlayer : UIView  {
+@implementation JWPlayerView : UIView  {
 
   RCTEventDispatcher *_eventDispatcher;
   UIView *_childView;
@@ -32,7 +32,7 @@
     self.player = [[JWPlayerController alloc] initWithConfig:config];
     _playerView =  self.player.view;
   }
-
+    
   return self;
 }
 

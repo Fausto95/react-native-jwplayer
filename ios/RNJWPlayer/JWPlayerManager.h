@@ -1,7 +1,4 @@
-//
-//  Created by Faustino Kialungila on 08/09/2019.
-//  Copyright © 2019 Facebook. All rights reserved.
-//
+//  Created by react-native-create-bridge
 
 // import RCTViewManager
 #if __has_include(<React/RCTViewManager.h>)
@@ -14,6 +11,6 @@
 
 // Subclass your view manager off the RCTViewManager
 // http://facebook.github.io/react-native/docs/native-components-ios.html#ios-mapview-example
-@interface JWPlayerManager : RCTViewManager
+@interface JWPlayerViewManager : RCTViewManager
 
 @end

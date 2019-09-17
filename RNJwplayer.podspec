@@ -12,7 +12,7 @@ Pod::Spec.new do |s|
   s.author             = { "author" => "faustino.dev" }
   s.platform     = :ios, "9.0"
   s.source       = { :git => "https://github.com/fausto95/react-native-jwplayer.git", :tag => "master" }
-  s.source_files  = "RNJwplayer/ios/*.{h,m}"
+  s.source_files  = "ios/RNJWPlayer/*.{h,m}"
   s.requires_arc = true
 
 
