@@ -8,7 +8,7 @@ import React, {Component} from 'react';
 import PropTypes from 'prop-types';
 import {requireNativeComponent} from 'react-native';
 
-const JWPlayer = requireNativeComponent('REACT_NATIVE_JW_PLAYER', JWPlayerView);
+const JWPlayer = requireNativeComponent('JWPlayer', JWPlayerView);
 
 export default class JWPlayerView extends Component {
   render() {
